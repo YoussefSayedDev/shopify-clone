@@ -14,7 +14,7 @@
     "watch:html": "chokidar \"public/**/*\" -c \"npm run copy:static\"",
     "build": "npm run clean && npm run build:ts && npm run build:scss && npm run copy:static",
     "start": "npm run build && live-server dist",
-    "dev": "concurrently \"npm run watch:ts\" \"npm run watch:scss\" \"npm run watch:html\" \"live-server dist\"",
+    "dev": "concurrently \"npm run watch:ts\" \"npm run watch:scss\" \"live-server dist\"",
     "lint": "eslint . --ext .ts",
     "lint:scss": "stylelint \"src/styles/**/*.scss\"",
     "test": "jest"

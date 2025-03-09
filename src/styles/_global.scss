@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+}
+
+.container {
+  @include make-container(1.5rem);
+}
