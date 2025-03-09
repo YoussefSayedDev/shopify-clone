@@ -1,2 +1,1 @@
-console.log('Hello, TypeScript!');
-console.log('Hello, World!');
+console.log('Hello, Youssef!');
